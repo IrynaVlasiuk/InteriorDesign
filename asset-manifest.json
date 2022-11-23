@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/InteriorDesign/static/css/main.bfe4e713.css",
+    "main.js": "/InteriorDesign/static/js/main.0333c9e6.js",
+    "static/js/787.28cb0dcd.chunk.js": "/InteriorDesign/static/js/787.28cb0dcd.chunk.js",
+    "static/media/about-us.jpg": "/InteriorDesign/static/media/about-us.e62994d0d038adc65dc9.jpg",
+    "static/media/project.jpg": "/InteriorDesign/static/media/project.8db95bf5612d1b01a407.jpg",
+    "static/media/experience.jpg": "/InteriorDesign/static/media/experience.aee5783041b82a071d19.jpg",
+    "static/media/blog_img_2.jpg": "/InteriorDesign/static/media/blog_img_2.e1721176f1a458b181ed.jpg",
+    "static/media/Roboto-Regular.ttf": "/InteriorDesign/static/media/Roboto-Regular.fc2b5060f7accec5cf74.ttf",
+    "static/media/Poppins-Regular.ttf": "/InteriorDesign/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
+    "static/media/blog_img_1.jpg": "/InteriorDesign/static/media/blog_img_1.8e4775be22e81c1603c4.jpg",
+    "static/media/title.png": "/InteriorDesign/static/media/title.9cedc40dcb1e591a4d67.png",
+    "static/media/avatar1.jpg": "/InteriorDesign/static/media/avatar1.5ce5243bf82b6e6d8e00.jpg",
+    "static/media/avatar2.jpg": "/InteriorDesign/static/media/avatar2.92a560a173d86697a5ff.jpg",
+    "index.html": "/InteriorDesign/index.html",
+    "main.bfe4e713.css.map": "/InteriorDesign/static/css/main.bfe4e713.css.map",
+    "main.0333c9e6.js.map": "/InteriorDesign/static/js/main.0333c9e6.js.map",
+    "787.28cb0dcd.chunk.js.map": "/InteriorDesign/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bfe4e713.css",
+    "static/js/main.0333c9e6.js"
+  ]
+}
