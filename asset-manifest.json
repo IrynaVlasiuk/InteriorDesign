@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/InteriorDesign/static/css/main.bfe4e713.css",
+    "main.css": "/InteriorDesign/static/css/main.55246fc5.css",
     "main.js": "/InteriorDesign/static/js/main.0333c9e6.js",
     "static/js/787.28cb0dcd.chunk.js": "/InteriorDesign/static/js/787.28cb0dcd.chunk.js",
     "static/media/about-us.jpg": "/InteriorDesign/static/media/about-us.e62994d0d038adc65dc9.jpg",
@@ -14,12 +14,12 @@
     "static/media/avatar1.jpg": "/InteriorDesign/static/media/avatar1.5ce5243bf82b6e6d8e00.jpg",
     "static/media/avatar2.jpg": "/InteriorDesign/static/media/avatar2.92a560a173d86697a5ff.jpg",
     "index.html": "/InteriorDesign/index.html",
-    "main.bfe4e713.css.map": "/InteriorDesign/static/css/main.bfe4e713.css.map",
+    "main.55246fc5.css.map": "/InteriorDesign/static/css/main.55246fc5.css.map",
     "main.0333c9e6.js.map": "/InteriorDesign/static/js/main.0333c9e6.js.map",
     "787.28cb0dcd.chunk.js.map": "/InteriorDesign/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bfe4e713.css",
+    "static/css/main.55246fc5.css",
     "static/js/main.0333c9e6.js"
   ]
 }
