@@ -1,0 +1,36 @@
+.image-section {
+    width: 45%;
+    position: relative;
+}
+
+.image-section img {
+    width: 100%;
+    position: relative;
+}
+
+.image-section img.top {
+    border-radius: 0% 20%;
+}
+
+.image-section img.bottom {
+    border-radius: 20% 0%;
+}
+
+.image-section .block-border {
+    border: 2px solid #B0855B;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.image-section .block-border.top {
+    bottom: 30px;
+    right: 30px;
+    border-radius: 0% 20%;
+}
+
+.image-section .block-border.bottom {
+    top: 30px;
+    left: 30px;
+    border-radius: 20% 0%;
+}

@@ -1,0 +1,40 @@
+.experience {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.textBlock .title {
+    background-size: cover;
+    color: #fff;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    padding: 0;
+    background-image: url("./assets/title.png");
+    background-position: center;
+    width: 300px;
+    font-size: 166px;
+    height: 200px;
+    margin: 0px;
+    text-align: left;
+}
+
+.textBlock {
+    text-align: left;
+}
+
+.textBlock h3 {
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 65px;
+    letter-spacing: 0.04em;
+    color: #212121;
+    text-align: left;
+}
+
+.textBlock h3 span {
+    display: block;
+}
+
+

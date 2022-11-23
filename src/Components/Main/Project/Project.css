@@ -1,0 +1,9 @@
+.Project {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Project .title {
+    font-size: 72px;
+}

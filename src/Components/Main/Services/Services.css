@@ -1,0 +1,37 @@
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.what-we-do {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.what-we-do hgroup {
+    text-align: left;
+}
+
+.what-we-do hgroup h4 {
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 27px;
+    color: #646464;
+    margin: 0px;
+}
+
+.what-we-do hgroup h2 {
+    font-style: normal;
+    font-weight: 600;
+    color: #212121;
+    margin: 0px;
+    font-size: 48px
+}
+
+.services .buttons-block {
+    width: 100%;
+    justify-content: flex-end;
+    display: flex;
+}
+

@@ -1,0 +1,10 @@
+.Button {
+    width: 10%;
+}
+
+.sign-up.btn {
+    height: 32px;
+    color: #ffff;
+    background-color: #CAA892;
+    min-width: 97px;
+}
