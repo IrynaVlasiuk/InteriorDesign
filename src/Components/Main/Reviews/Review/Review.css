@@ -8,6 +8,13 @@
     box-sizing: border-box;
 }
 
+@media (max-width: 960px) {
+    .Review {
+        width: 75%;
+        margin: 20px auto;
+    }
+}
+
 .Review .avatar {
     border-radius: 35px 0px;
     position: absolute;
@@ -24,7 +31,7 @@
 
 .Review .quotes-block {
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
 }
 
 .Review .review-block .client-info .name {

@@ -2,6 +2,13 @@
     width: 45%;
 }
 
+@media (max-width: 900px) {
+    .textSection {
+        width: 80%;
+        margin: 20px auto;
+    }
+}
+
 .textSection hgroup {
     text-align: left;
 }

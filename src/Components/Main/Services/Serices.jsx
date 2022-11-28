@@ -34,7 +34,7 @@ let servicesElement = services.map(service =>
 
 const Services = () => {
     return (
-        <section className="services">
+        <section className="services" id="services">
             <div className="what-we-do">
                 <hgroup>
                     <h4>What we do</h4>

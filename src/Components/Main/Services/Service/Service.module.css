@@ -9,6 +9,13 @@
   justify-content: space-between;
 }
 
+@media (max-width: 910px) {
+   .service {
+      width: 60%;
+      margin: 20px auto;
+   }
+}
+
 .serviceActive {
   background-color: #CAA892;
   color: #ffff;
@@ -20,6 +27,13 @@
   box-sizing: border-box;
   align-items: flex-start;
   justify-content: space-between;
+}
+
+@media (max-width: 910px) {
+  .serviceActive  {
+    width: 60%;
+    margin: 20px auto;
+  }
 }
 
 .textBlock {

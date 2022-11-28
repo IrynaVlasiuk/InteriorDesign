@@ -5,7 +5,7 @@ const Service = (props) => {
     return (
         <div className={(props.isActive) ? style.serviceActive : style.service} >
             <div>
-                <img src={props.img}/>
+                <img src={props.img} alt=""/>
             </div>
             <div className={style.textBlock}>
                 <h4>{props.title}</h4>

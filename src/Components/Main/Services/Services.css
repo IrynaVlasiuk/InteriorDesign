@@ -4,6 +4,12 @@
     justify-content: space-between;
 }
 
+@media (max-width: 910px) {
+    .services {
+        display: block;
+    }
+}
+
 .what-we-do {
     width: 100%;
     margin-bottom: 50px;

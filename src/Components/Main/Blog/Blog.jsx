@@ -21,7 +21,7 @@ let blogItemsElement = blogItems.map(blogItem => <BlogItem blogItem={blogItem}/>
 
 const Blog = () => {
     return (
-        <section className={style.blog}>
+        <section className={style.blog} id="blog">
             <div className={style.wrapper}>
             <hgroup>
                 <h4>Latest News</h4>

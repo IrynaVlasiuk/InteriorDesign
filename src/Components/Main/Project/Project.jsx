@@ -13,7 +13,7 @@ const content = {
 
 const Project = () => {
     return (
-        <section className="Project">
+        <section className="project" id="project">
             <TextSection content={content}/>
             <ImageSection image={img} borderPosition="bottom"/>
         </section>

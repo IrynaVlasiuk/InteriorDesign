@@ -19,7 +19,7 @@ const content = {
 
 const About = () => {
     return (
-        <section className={style.about}>
+        <section className={style.about} id="about-us">
             <ImageSection image={img} borderPosition="top"/>
             <TextSection content={content}/>
         </section>

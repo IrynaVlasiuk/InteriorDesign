@@ -9,6 +9,18 @@
     cursor: pointer;
 }
 
+@media (max-width: 700px) {
+    .green-button {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 540px) {
+    .green-button {
+        font-size: 14px;
+    }
+}
+
 .green-button:hover {
     background-color: #076449;
 }

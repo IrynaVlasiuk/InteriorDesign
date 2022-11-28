@@ -17,7 +17,7 @@ const CompletedWork = () => {
                     </div>
                 </div>
                 <div className={style.blockImage}>
-                    <img src={img}/>
+                    <img src={img} alt=""/>
                 </div>
                 <div className={style.block}>
                     <div className={style.numberBlockEven}>
@@ -26,7 +26,7 @@ const CompletedWork = () => {
                     </div>
                 </div>
                 <div className={style.blockImageReversed}>
-                    <img src={img}/>
+                    <img src={img} alt=""/>
                 </div>
                 <div className={style.block}>
                     <div className={style.numberBlock}>
@@ -35,7 +35,7 @@ const CompletedWork = () => {
                     </div>
                 </div>
                 <div className={style.blockImage}>
-                    <img src={img}/>
+                    <img src={img} alt=""/>
                 </div>
                 <div className={style.block}>
                     <div className={style.numberBlockEven}>

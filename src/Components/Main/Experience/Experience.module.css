@@ -4,6 +4,12 @@
     justify-content: space-between;
 }
 
+@media (max-width: 900px) {
+    .experience {
+        display: block;
+    }
+}
+
 .textBlock .title {
     background-size: cover;
     color: #fff;
@@ -31,6 +37,7 @@
     letter-spacing: 0.04em;
     color: #212121;
     text-align: left;
+    margin-top: 0px;
 }
 
 .textBlock h3 span {

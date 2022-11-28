@@ -24,6 +24,13 @@
     font-size: 18px;
     font-weight: 400;
     margin-bottom: 0px;
+    height: 40px;
+}
+
+@media (max-width: 570px) {
+    .blog h4 {
+        height: 55px;
+    }
 }
 
 .wrapper {
@@ -32,6 +39,12 @@
     margin: 0px auto;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+
+@media (max-width: 1235px) {
+    .wrapper {
+        width: 90%;
+    }
 }
 
 

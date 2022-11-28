@@ -2,3 +2,15 @@
     width: 30%;
     text-align: left;
 }
+
+@media (max-width: 900px) {
+    .Logo {
+        width: 20%;
+    }
+}
+
+@media (max-width: 780px) {
+    .Logo img {
+        width: 120px;
+    }
+}

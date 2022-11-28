@@ -1,10 +1,26 @@
-.Button {
+.button {
     width: 10%;
+}
+
+@media (max-width: 900px) {
+    .button {
+        width: 20%;
+    }
+}
+
+.button li {
+    list-style: none;
 }
 
 .sign-up.btn {
     height: 32px;
     color: #ffff;
     background-color: #CAA892;
-    min-width: 97px;
+    min-width: 110px;
 }
+
+.sign-up.btn:hover {
+    background-color: #B0855B;
+}
+
+

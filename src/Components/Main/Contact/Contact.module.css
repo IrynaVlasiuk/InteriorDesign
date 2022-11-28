@@ -16,6 +16,12 @@
     font-size: 48px;
 }
 
+@media (max-width: 850px) {
+    .wrapper h3 {
+        font-size: 34px;
+    }
+}
+
 .btn_subscribe {
     border-bottom-right-radius: 20px;
     border: none;
@@ -49,8 +55,20 @@
     border: none;
 }
 
+@media (max-width: 850px) {
+    .form_subscribe input {
+        width: 250px;
+    }
+}
+
 .description {
     width: 50%;
     margin: 0px auto;
     font-size: 19px;
+}
+
+@media (max-width: 850px) {
+    .description {
+        font-size: 15px;
+    }
 }

@@ -8,6 +8,18 @@ footer {
     box-sizing: border-box;
 }
 
+@media (max-width: 1050px) {
+    footer {
+        padding: 50px 10px;
+    }
+}
+
+@media (max-width: 800px) {
+    footer {
+        display: block;
+    }
+}
+
 .bold {
     font-weight: bold;
     font-size: 20px;
@@ -17,12 +29,23 @@ footer {
     width: 20%;
 }
 
+@media (max-width: 800px) {
+    .section {
+        width: 100%;
+    }
+}
+
 .social_network_icons {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    width: 80%;
     margin: 0px auto;
+}
+
+@media (min-width: 1200px) {
+    .social_network_icons {
+        width: 80%;
+    }
 }
 
 .icon_block__active {
@@ -43,4 +66,8 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.icon_block:hover, .icon_block__active:hover {
+    transform: scale(1.1);
 }

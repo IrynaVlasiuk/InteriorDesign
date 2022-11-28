@@ -6,3 +6,9 @@
     margin: 0px auto;
     background-color: #E5E5E5;
 }
+
+@media (max-width: 900px) {
+    .header {
+        padding: 20px 10px;
+    }
+}
