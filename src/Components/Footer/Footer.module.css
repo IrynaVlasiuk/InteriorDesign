@@ -2,7 +2,7 @@ footer {
     display: flex;
     width: 100%;
     margin: 0px;
-    background-color: #F8F8F8;
+    background-color: #E5E5E5;
     padding: 50px 100px;
     justify-content: space-around;
     box-sizing: border-box;
@@ -70,4 +70,8 @@ footer {
 
 .icon_block:hover, .icon_block__active:hover {
     transform: scale(1.1);
+}
+
+.logo {
+    width: 100%;
 }

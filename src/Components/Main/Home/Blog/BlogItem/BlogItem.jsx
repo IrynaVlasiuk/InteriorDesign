@@ -1,6 +1,6 @@
 import React from "react";
 import style from "./BlogItem.module.css";
-import Button from "../../Common/Button/Button";
+import Button from "../../../Common/Button/Button";
 
 const BlogItem = (props) => {
     return (

@@ -1,15 +1,13 @@
 import React from "react";
 import './Button.css';
-import {CNavItem, CNavLink} from "@coreui/react";
+import {NavLink} from "react-router-dom";
 
 const Button = () => {
    return (
        <div className="button">
-           <CNavItem>
-               <CNavLink href="#contact">
-                   <button className="sign-up btn">Sign Up</button>
-               </CNavLink>
-           </CNavItem>
+           <NavLink to='/contact'>
+               <button className="sign-up btn">Sign Up</button>
+           </NavLink>
         </div>
    )
 }

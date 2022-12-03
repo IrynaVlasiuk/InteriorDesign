@@ -1,24 +1,41 @@
 import React from "react";
-import Project from "./Project/Project";
-import Services from "./Services/Serices";
-import About from "./About/About";
-import Experience from "./Experience/Experience";
-import CompletedWork from "./CompletedWork/ComplitedWork";
-import Reviews from "./Reviews/Reviews";
-import Blog from "./Blog/Blog";
-import Contact from "./Contact/Contact";
+import {Route, Routes} from "react-router-dom";
+import Home from "./Home/Home";
+import Services from "./Home/Services/Serices";
+import About from "./Home/About/About";
+import Blog from "./Home/Blog/Blog";
+import Contact from "./Home/Contact/Contact";
+import Projects from "./Projects/Projects";
 
 const Main = () => {
    return (
        <div className="Main">
-           <Project/>
-           <Services/>
-           <About/>
-           <Experience/>
-           <CompletedWork/>
-           <Reviews/>
-           <Blog/>
-           <Contact/>
+           <Routes>
+               <Route
+                   path="/"
+                   element={<Home/>}
+               />
+               <Route
+                   path="/projects"
+                   element={<Projects/>}
+               />
+               <Route
+                   path="/services"
+                   element={<Services/>}
+               />
+               <Route
+                   path="/about"
+                   element={<About/>}
+               />
+               <Route
+                   path="/blog"
+                   element={<Blog/>}
+               />
+               <Route
+                   path="contact"
+                   element={<Contact/>}
+               />
+           </Routes>
        </div>
    )
 }

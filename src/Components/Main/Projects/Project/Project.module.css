@@ -1,0 +1,23 @@
+.project {
+    display: flex;
+    margin: 50px 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project.even {
+    flex-direction: row-reverse;
+}
+
+.imgBlock {
+    width: 45%;
+}
+
+.imgBlock img {
+    width: 100%;
+    border-radius: 20% 0%;
+}
+
+.textBlock {
+    width: 45%;
+}

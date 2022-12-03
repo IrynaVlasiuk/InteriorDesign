@@ -1,6 +1,6 @@
 import React from "react";
 import style from './TextSection.module.css';
-import Button from "../../Common/Button/Button";
+import Button from "../../../Common/Button/Button";
 
 const TextSection = (props) => {
     return (

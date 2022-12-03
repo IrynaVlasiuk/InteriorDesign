@@ -1,16 +1,16 @@
-.Logo {
+.logo {
     width: 30%;
     text-align: left;
 }
 
 @media (max-width: 900px) {
-    .Logo {
+    .logo {
         width: 20%;
     }
 }
 
 @media (max-width: 780px) {
-    .Logo img {
+    .logo img {
         width: 120px;
     }
 }

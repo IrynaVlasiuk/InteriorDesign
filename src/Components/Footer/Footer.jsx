@@ -1,16 +1,21 @@
 import React from "react";
 import style from "./Footer.module.css";
-import logo from "../Logo/assets/logo.png";
 import facebook from "./assets/facebook.png";
 import instagram from "./assets/instagram.png";
 import twitter from "./assets/twitter.png";
 import linkedIn from "./assets/linked-in.png";
+import {NavLink} from "react-router-dom";
+import logo from "../assets/logo.png";
 
 const Footer = () => {
     return (
         <footer>
             <div className={style.section}>
-              <img src={logo} alt="logo"/>
+                <div className={style.logo}>
+                    <NavLink to='/'>
+                        <img src={logo} alt="logo" title="logo"/>
+                    </NavLink>
+                </div>
               <p>But i must explain to you all this mistaken idea of dencouncing pleasure.</p>
             </div>
             <div className={style.section}>

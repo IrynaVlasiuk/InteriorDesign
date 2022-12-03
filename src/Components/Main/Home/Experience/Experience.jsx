@@ -1,8 +1,8 @@
 import React from "react";
 import style from "./Experience.module.css";
-import ImageSection from "../Common/Sections/ImageSection/ImageSection";
+import ImageSection from "../../Common/Sections/ImageSection/ImageSection";
 import img from "./assets/experience.jpg";
-import Button from "../Common/Button/Button";
+import Button from "../../Common/Button/Button";
 
 const Experience = () => {
     return (

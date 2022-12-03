@@ -1,11 +1,14 @@
 import React from "react";
 import "./Button.css";
+import {NavLink} from "react-router-dom";
 
 const Button = (props) => {
     return (
-        <div className="button">
-           <button className="btn green-button">{props.buttonTitle}</button>
-        </div>
+        <NavLink to='/contact'>
+            <div className="button">
+                <button className="btn green-button">{props.buttonTitle}</button>
+            </div>
+        </NavLink>
     );
 }
 

@@ -70,3 +70,8 @@ html {
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
+
+.logoPositionCenter {
+  text-align: center;
+  width: 100%;
+}

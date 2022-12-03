@@ -1,7 +1,7 @@
 import React from "react";
 import style from "./About.module.css";
 import TextSection from "./TextSection/TextSection";
-import ImageSection from "../Common/Sections/ImageSection/ImageSection";
+import ImageSection from "../../Common/Sections/ImageSection/ImageSection";
 import img from "./assets/about-us.jpg";
 
 const content = {

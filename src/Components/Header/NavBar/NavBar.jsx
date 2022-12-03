@@ -1,28 +1,17 @@
 import React from "react";
 import style from './NavBar.module.css';
-import {CNavItem, CNavLink} from '@coreui/react';
+import {NavLink} from "react-router-dom";
 
 const NavBar = () => {
     return(
         <nav className={style.menu}>
-            <CNavItem>
-                <CNavLink href="/">Home</CNavLink>
-            </CNavItem>
-            <CNavItem>
-                <CNavLink href="#services">Services</CNavLink>
-            </CNavItem>
-            <CNavItem>
-                <CNavLink href="#about-us">About</CNavLink>
-            </CNavItem>
-            <CNavItem>
-                <CNavLink href="#blog">Blog</CNavLink>
-            </CNavItem>
-            <CNavItem>
-                <CNavLink href="/shop">Shop</CNavLink>
-            </CNavItem>
-            <CNavItem>
-                <CNavLink href="#contact">Contact</CNavLink>
-            </CNavItem>
+            <NavLink to='/' className={isActive => (isActive ? style.active : "")}>Home</NavLink>
+            <NavLink to='/projects'>Projects</NavLink>
+            <NavLink to='/services'>Services</NavLink>
+            <NavLink to='/about'>About</NavLink>
+            <NavLink to='/blog'>Blog</NavLink>
+            <NavLink to='/shop'>Shop</NavLink>
+            <NavLink to='/contact'>Contact</NavLink>
         </nav>
     );
 }
