@@ -1,25 +1,30 @@
 {
   "files": {
-    "main.css": "/InteriorDesign/static/css/main.c84160e8.css",
-    "main.js": "/InteriorDesign/static/js/main.4b013a14.js",
+    "main.css": "/InteriorDesign/static/css/main.5d9e424d.css",
+    "main.js": "/InteriorDesign/static/js/main.5229e93c.js",
     "static/js/787.28cb0dcd.chunk.js": "/InteriorDesign/static/js/787.28cb0dcd.chunk.js",
+    "static/media/banner.jpg": "/InteriorDesign/static/media/banner.3cd5d7e7bc788f5e0dfe.jpg",
+    "static/media/project4.jpg": "/InteriorDesign/static/media/project4.ca25dc1fa327c433665e.jpg",
     "static/media/about-us.jpg": "/InteriorDesign/static/media/about-us.e62994d0d038adc65dc9.jpg",
     "static/media/project.jpg": "/InteriorDesign/static/media/project.8db95bf5612d1b01a407.jpg",
     "static/media/experience.jpg": "/InteriorDesign/static/media/experience.aee5783041b82a071d19.jpg",
+    "static/media/project1.jpg": "/InteriorDesign/static/media/project1.c0770237fae07527d21b.jpg",
     "static/media/blog_img_2.jpg": "/InteriorDesign/static/media/blog_img_2.e1721176f1a458b181ed.jpg",
     "static/media/Roboto-Regular.ttf": "/InteriorDesign/static/media/Roboto-Regular.fc2b5060f7accec5cf74.ttf",
     "static/media/Poppins-Regular.ttf": "/InteriorDesign/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
     "static/media/blog_img_1.jpg": "/InteriorDesign/static/media/blog_img_1.8e4775be22e81c1603c4.jpg",
     "static/media/title.png": "/InteriorDesign/static/media/title.9cedc40dcb1e591a4d67.png",
+    "static/media/project2.jpg": "/InteriorDesign/static/media/project2.20cc6dcc651816a398d9.jpg",
+    "static/media/project3.jpg": "/InteriorDesign/static/media/project3.49bd260674ad1ee7d8e1.jpg",
     "static/media/avatar1.jpg": "/InteriorDesign/static/media/avatar1.5ce5243bf82b6e6d8e00.jpg",
     "static/media/avatar2.jpg": "/InteriorDesign/static/media/avatar2.92a560a173d86697a5ff.jpg",
     "index.html": "/InteriorDesign/index.html",
-    "main.c84160e8.css.map": "/InteriorDesign/static/css/main.c84160e8.css.map",
-    "main.4b013a14.js.map": "/InteriorDesign/static/js/main.4b013a14.js.map",
+    "main.5d9e424d.css.map": "/InteriorDesign/static/css/main.5d9e424d.css.map",
+    "main.5229e93c.js.map": "/InteriorDesign/static/js/main.5229e93c.js.map",
     "787.28cb0dcd.chunk.js.map": "/InteriorDesign/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c84160e8.css",
-    "static/js/main.4b013a14.js"
+    "static/css/main.5d9e424d.css",
+    "static/js/main.5229e93c.js"
   ]
 }
