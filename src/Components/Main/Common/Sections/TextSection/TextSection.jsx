@@ -14,7 +14,7 @@ const TextSection = (props) => {
                 <p className={style.description}>
                     { props.content.description }
                 </p>
-                <Button buttonTitle="Contact"/>
+                <Button url="/contact" buttonTitle="Contact"/>
             </div>
         </div>
     );

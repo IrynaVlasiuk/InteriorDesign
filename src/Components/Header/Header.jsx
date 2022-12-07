@@ -9,7 +9,7 @@ const Header = () => {
         <div className={style.header}>
             <Logo/>
             <NavBar/>
-            <Button/>
+            <Button url="/contact"/>
         </div>
     );
 }

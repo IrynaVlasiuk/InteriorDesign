@@ -3,6 +3,8 @@ import style from "./BlogItem.module.css";
 import Button from "../../../Common/Button/Button";
 
 const BlogItem = (props) => {
+    let url = "/blog/" + props.blogItem.id;
+
     return (
         <div className={style.blog}>
             <div className={style.imgsection}>
@@ -13,7 +15,7 @@ const BlogItem = (props) => {
                 <h4>{props.blogItem.title}</h4>
                 <p>{props.blogItem.description}</p>
             </div>
-            <Button buttonTitle="Continue reading..."/>
+            <Button url={url} buttonTitle="Continue reading..."/>
         </div>
     );
 }

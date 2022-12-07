@@ -6,11 +6,13 @@ import BlogItem from "./BlogItem/BlogItem";
 
 const blogItems = [
     {
+        "id": 1,
         "img": image1,
         "title": "2020 Interior Design Trends",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod incididunt ut labore et dolore magna aliqua."
     },
     {
+        "id": 2,
         "img": image2,
         "title": "28 Notable Product at ARC Interior Design",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod incididunt ut labore et dolore magna aliqua."

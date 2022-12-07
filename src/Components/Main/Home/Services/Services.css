@@ -2,6 +2,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    padding: 100px 0px;
 }
 
 @media (max-width: 910px) {
